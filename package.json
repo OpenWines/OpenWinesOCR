@@ -1,0 +1,28 @@
+{
+  "name": "WineOCR",
+  "version": "1.0.0",
+  "description": "OCR for OpenWines project",
+  "main": "wineocr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenWines/WineOCR"
+  },
+  "keywords": [
+    "OpenWines",
+    "wine",
+    "open-data",
+    "OCR"
+  ],
+  "author": "Ronan Guilloux <ronan.guilloux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenWines/WineOCR/issues"
+  },
+  "homepage": "https://github.com/OpenWines/WineOCR",
+  "dependencies": {
+    "node-tesseract": "^0.2.7"
+  }
+}
