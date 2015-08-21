@@ -1,8 +1,30 @@
 # WineOCR
 
-OCR-based tool, used to feed [OpenWines](http://openwines.eu)open-data, using wine bottle labels images:
+OCR-based tool, used to feed [OpenWines](http://openwines.eu) open-data, using wine bottle labels images:
 
-![etiquette_3.jpg](etiquette_3.jpg)
+<img src="https://raw.githubusercontent.com/OpenWines/OpenWinesOCR/master/examples/etiquette_3.jpg"
+     height="50%" width="50%">
+
+## Output:
+
+```
+$ node wineocr.js etiquette_3.jpg                                                        11:40  ronan@cider
+
+CHÂTEAU MERCIER
+
+CÔTES DE BOURG
+
+APPELLATION CÔTES DE BOURG CONTRÔLÉE
+
+2000
+
+15H ml
+ÇERÊRÏﬁLL MIS EN BOUTEILLE AU CHATEAU
+
+“l |
+S.C.E.A. FAMILLE CHETY, PRODUCTEUR A SA|NT—TROJAN (GIRONDE) FRANCE  .
+```
+
 
 ## Usage:
 
@@ -10,7 +32,7 @@ OCR-based tool, used to feed [OpenWines](http://openwines.eu)open-data, using wi
 $ node wineocr.js [file_path] [layout_analysis_option] [language_code]
 ```
 
-__Example__: see `etiquette_3.jpg` in the example folder
+### Example:
 
 ```bash
 $ node wineocr.js ./examples/etiquette_3.jpg
@@ -27,28 +49,6 @@ Argument details:
 - `etiquette_3.jpg` is a filepath
 - `3` is a layout analysis option for `tesseract` OCR
 - `fra` is a language code. Available languages depend on your tesseract installation (see below).
-
-
-## Output:
-
-```
-$ node wineocr.js etiquette_3.jpg                                                        11:40  ronan@cider
-
-
-CHÂTEAU MERCIER
-
-CÔTES DE BOURG
-
-APPELLATION CÔTES DE BOURG CONTRÔLÉE
-
-2000
-
-15H ml
-ÇERÊRÏﬁLL MIS EN BOUTEILLE AU CHATEAU
-
-“l |
-S.C.E.A. FAMILLE CHETY, PRODUCTEUR A SA|NT—TROJAN (GIRONDE) FRANCE  .
-```
 
 
 ## Installation
