@@ -25,11 +25,12 @@ APPELLATION CÔTES DE BOURG CONTRÔLÉE
 S.C.E.A. FAMILLE CHETY, PRODUCTEUR A SA|NT—TROJAN (GIRONDE) FRANCE  .
 ```
 
+The OCR output is both displayed in the console and written in a newly created `[IMAGE_PATH].ocr.txt` file
 
 ## Usage:
 
 ```
-$ node wineocr.js [file_path] [layout_analysis_option] [language_code]
+$ node wineocr.js [path] [layout_analysis_option] [language_code]
 ```
 
 ### Example:
@@ -41,15 +42,20 @@ $ node wineocr.js ./examples/etiquette_3.jpg
 which is the equivalent of the default options:
 
 ```bash
-$ node wineocr.js etiquette_3.jpg 3 fra
+$ node wineocr.js examples/etiquette_3.jpg 3 fra
 ```
 
 Argument details:
 
-- `etiquette_3.jpg` is a filepath
+- both directory and single file path work, as first argument
 - `3` is a layout analysis option for `tesseract` OCR
 - `fra` is a language code. Available languages depend on your tesseract installation (see below).
 
+Note that you can either process a whole directory:
+
+```bash
+$ node wineocr.js examples/
+```
 
 ## Installation
 

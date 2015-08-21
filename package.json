@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/OpenWines/WineOCR",
   "dependencies": {
-    "node-tesseract": "^0.2.7"
+    "node-tesseract": "^0.2.7",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.1.1"
   }
 }
