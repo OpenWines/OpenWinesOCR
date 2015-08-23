@@ -98,6 +98,11 @@ npm install
 
 `3` seems to be a good option for most wine bottle labels.
 
+## Considering tesseract alternative: OCR APIs
+
+- [Microsoft Project Oxford Visions OCR](https://www.projectoxford.ai/demo/visions#Ocr) (w/ API)
+
+
 ## License
 
 MIT License - See [license](LICENSE) file.
