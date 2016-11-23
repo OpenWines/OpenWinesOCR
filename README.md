@@ -5,10 +5,18 @@ OCR-based tool, used to feed [OpenWines](http://openwines.eu) open-data, using w
 <img src="https://raw.githubusercontent.com/OpenWines/OpenWinesOCR/master/examples/etiquette_3.jpg"
      height="50%" width="50%">
 
+## Dependencies
+
+These scripts use [nodejs](https://nodejs.org/), dependencies are managed via [npm](https://www.npmjs.com/)
+
+```
+$ npm install
+```
+
 ## Output:
 
 ```
-$ node wineocr.js etiquette_3.jpg                                                        11:40  ronan@cider
+$ node wineocr.js etiquette_3.jpg
 
 CHÂTEAU MERCIER
 
