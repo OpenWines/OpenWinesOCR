@@ -5,13 +5,7 @@ OCR-based tool, used to feed [OpenWines](http://openwines.eu) open-data, using w
 <img src="https://raw.githubusercontent.com/OpenWines/OpenWinesOCR/master/examples/etiquette_3.jpg"
      height="50%" width="50%">
 
-## Dependencies
-
 These scripts use [nodejs](https://nodejs.org/), dependencies are managed via [npm](https://www.npmjs.com/)
-
-```
-$ npm install
-```
 
 ## Output:
 
@@ -109,7 +103,8 @@ npm install
 ## Considering tesseract alternative: OCR APIs
 
 - [Microsoft Project Oxford Visions OCR](https://www.projectoxford.ai/demo/visions#Ocr) (w/ API)
-
+- https://ocr.space
+- https://cloud.google.com/vision/ 
 
 ## License
 
